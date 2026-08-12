@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: vaibhav3099.github.io
+  baseUrl: vaibhav3099.github.io/obsidian-vault
   ignorePatterns:
     - private
     - templates
