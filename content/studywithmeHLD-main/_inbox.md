@@ -1,0 +1,39 @@
+Redis Stream vs KAFKA 
+EDA Event Driven Architecture													 
+Event logs
+Redis Stream
+Low latency matters 
+Real-time event processing
+KAFKA
+durable event storage 
+replay events 
+high-throughput event streaming
+[Redis vs KAFKA](https://www.instagram.com/p/DbTcxxZoi7e/)
+
+
+S3 vs EFS vs EBS
+Why did AWS build three storage services instead of just one?
+https://www.instagram.com/p/DboJm_wS-sE/
+
+Amazon S3 (Simple Storage Service)
+Stores data as objects, not traditional files or disks.
+Typically accessed using APIs (HTTP/SDKs) instead of a traditional file system.
+Best for user uploads, photos, videos, PDFs, backups, logs, and static website assets.
+
+Amazon EFS (Elastic File System)
+A fully managed shared file system.
+Multiple EC2 instances can mount the same file system at the same time.
+Best when multiple application servers need access to the same files.
+
+Amazon EBS (Elastic Block Store)
+Provides persistent block storage for Amazon EC2.
+Typically attached to a single EC2 instance.
+Commonly used for operating systems, databases, and application storage.
+
+Object Storage → Amazon S3
+Shared File Storage (Among EC2 Instance) → Amazon EFS
+Block Storage → Amazon EBS
+
+
+🚀 How does a Kubernetes Pod securely access an Amazon S3 Bucket? 🤔
+[Instagram](https://www.instagram.com/p/DbIinvXoMrr/)
